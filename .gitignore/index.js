@@ -8,7 +8,7 @@ bot.on('ready', function() {
     console.log("Connectedc");
 });
 
-bot.login(procces.env.TOKEN);
+bot.login(processe.env.TOKEN);
 
 
 bot.on('message', message => {
